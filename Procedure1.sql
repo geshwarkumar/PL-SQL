@@ -1,0 +1,6 @@
+CREATE OR REPLACE PROCEDURE Greatings
+AS
+BEGIN
+	dbms_output.put_line(' YOU INSIDE THE GREATING PROCEDURE ');
+END ;
+/
